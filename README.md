@@ -152,9 +152,9 @@ lib/
 
 ## 👨‍💻 Informasi Developer
 
-**Nama:** Nama Mahasiswa
-**NIM:** 123456789
-**Jurusan:** Teknik Informatika
+**Nama:** Rafi syahrulfalah
+**NIM:** 152023046
+**Jurusan:** Informatika
 
 ---
 
