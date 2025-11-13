@@ -158,9 +158,6 @@ lib/
 
 ---
 
-## 📸 Screenshot
-
-*Screenshot akan ditambahkan setelah aplikasi berjalan*
 
 ## 🔄 Update yang Dapat Dilakukan
 
