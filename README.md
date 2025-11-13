@@ -3,7 +3,7 @@
 Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur menarik seperti Biodata, Kontak, Kalkulator, Cuaca, dan Berita.
 
 ## 📱 Fitur Aplikasi
-
+![Splash Screen](screenshots/splash.png)
 ### 1. **Splash Screen** ⏱️
 - Durasi: 5 detik
 - Menampilkan:
@@ -25,6 +25,7 @@ Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur 
 - Navigasi smooth dengan animasi
 
 ### 3. **Halaman Biodata** 👤
+![Bio Data](screenshots/bio.png)
 - Foto profil bulat (circle)
 - Informasi: Nama, NIM, Jurusan, Deskripsi
 - **Form Input Interaktif:**
@@ -35,6 +36,7 @@ Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur 
 - Design modern dan responsif
 
 ### 4. **Halaman Kontak** 📞
+![Kontak](screenshots/kontak.png)
 - Daftar 15 kontak statis
 - Setiap kontak menampilkan:
   - Circle avatar dengan warna unik
@@ -45,6 +47,7 @@ Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur 
 - Card design dengan elevation
 
 ### 5. **Halaman Kalkulator** 🧮
+![kalkulator](screenshots/calcu.png)
 - **Operasi Dasar:**
   - Tambah (+)
   - Kurang (−)
@@ -59,6 +62,7 @@ Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur 
 - Design calculator yang menarik dengan warna-warni
 
 ### 6. **Halaman Cuaca** ☀️
+![cuaca](screenshots/suhu.png)
 - Data cuaca statis untuk Jakarta
 - Menampilkan:
   - Nama kota
@@ -75,6 +79,7 @@ Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur 
 - Design gradient biru yang menarik
 
 ### 7. **Halaman Berita** 📰
+![Berita](screenshots/berita.png)
 - 8 artikel berita statis
 - Setiap berita menampilkan:
   - Thumbnail icon berwarna
