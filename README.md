@@ -1,6 +1,11 @@
 # Aplikasi Tugas Flutter
 
 Aplikasi Android lengkap yang dibuat dengan Flutter, menampilkan berbagai fitur menarik seperti Biodata, Kontak, Kalkulator, Cuaca, dan Berita.
+## 👨‍💻 Informasi Developer
+
+**Nama:** Rafi syahrulfalah
+**NIM:** 152023046
+**Jurusan:** Informatika
 
 ## 📱 Fitur Aplikasi
 ![Splash Screen](screenshots/splash.png)
@@ -155,25 +160,7 @@ lib/
 - ✅ Responsive untuk berbagai ukuran layar
 - ✅ Menggunakan Material Design 3
 
-## 👨‍💻 Informasi Developer
-
-**Nama:** Rafi syahrulfalah
-**NIM:** 152023046
-**Jurusan:** Informatika
-
 ---
-
-
-## 🔄 Update yang Dapat Dilakukan
-
-Untuk pengembangan lebih lanjut, Anda dapat:
-1. Mengganti foto placeholder dengan foto asli
-2. Menambahkan koneksi API untuk data cuaca dan berita real-time
-3. Menyimpan data biodata ke local storage (SharedPreferences)
-4. Menambahkan animasi transisi yang lebih smooth
-5. Integrasi dengan database SQLite untuk kontak
-6. Menambahkan dark mode theme
-7. Menambahkan lebih banyak operasi matematika pada kalkulator
 
 ## 📄 License
 
