@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tugas_flutter"
+    namespace = "com.rafi.tugas_flutter"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -20,10 +20,8 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.tugas_flutter"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        // Application ID - Unique identifier for this app
+        applicationId = "com.rafi.tugas_flutter"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -32,8 +30,9 @@ android {
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
+            // Release build configuration
+            // For production, you should create your own signing config
+            // For now, using debug keys for development purposes
             signingConfig = signingConfigs.getByName("debug")
         }
     }

@@ -124,21 +124,69 @@ lib/
 4. **Pilih device:**
    - Pilih Android emulator atau perangkat yang tersambung
 
+### Build APK untuk Android:
+
+**Cara Mudah (Pakai Script):**
+```bash
+# Double-klik file ini untuk build APK otomatis:
+build_apk.bat
+```
+
+**Atau Manual:**
+```bash
+# Build APK release (untuk install di HP)
+flutter build apk --release
+
+# Build APK split (ukuran lebih kecil)
+flutter build apk --split-per-abi --release
+
+# Lokasi APK: build/app/outputs/flutter-apk/
+```
+
+**Install ke HP Android:**
+1. Transfer file APK ke HP
+2. Buka file APK di HP
+3. Tap Install
+4. Selesai!
+
+📖 **Panduan lengkap:** Lihat file `CARA_DOWNLOAD.md`
+
+## 📤 Upload ke GitHub
+
+**Cara Mudah (Pakai Script):**
+```bash
+# Double-klik file ini:
+upload_github.bat
+```
+
+**Atau Manual:**
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/username/tugas_flutter.git
+git push -u origin main
+```
+
+📖 **Panduan lengkap:** Lihat file `CARA_UPLOAD_GITHUB.md`
+
 ## 🎨 Desain & Teknologi
 
 - **Framework:** Flutter
 - **Language:** Dart
+- **Color Theme:** 💜 Gradasi Ungu-Pink (DeepPurple → Purple → Pink)
 - **UI Pattern:** Fragment-based dengan StatefulWidget dan StatelessWidget
 - **Navigation:** Bottom Navigation Bar
 - **State Management:** setState (built-in)
-- **Layout:** ConstraintLayout, Column, Row, ListView, GridView
+- **Layout:** Column, Row, ListView, GridView
 - **Components:**
   - Material Design 3
-  - Custom gradients
+  - Custom gradients (Ungu-Pink theme)
   - Card dengan elevation
   - CircleAvatar
   - Icons dari Material Icons
   - Form widgets (TextField, Dropdown, Radio, DatePicker)
+  - Custom AppBar dengan gradient
 
 ## 📝 Catatan Penting
 
@@ -152,9 +200,10 @@ lib/
 
 ## 👨‍💻 Informasi Developer
 
-**Nama:** Nama Mahasiswa  
-**NIM:** 123456789  
-**Jurusan:** Teknik Informatika
+**Nama:** Rafi Syahrulfalah  
+**NIM:** 152023046  
+**Jurusan:** Informatika  
+**Universitas:** [Nama Universitas Anda]
 
 ---
 
@@ -165,13 +214,14 @@ lib/
 ## 🔄 Update yang Dapat Dilakukan
 
 Untuk pengembangan lebih lanjut, Anda dapat:
-1. Mengganti foto placeholder dengan foto asli
+1. ✅ ~~Mengganti foto placeholder dengan foto asli~~ (Sudah menggunakan foto dari assets)
 2. Menambahkan koneksi API untuk data cuaca dan berita real-time
 3. Menyimpan data biodata ke local storage (SharedPreferences)
 4. Menambahkan animasi transisi yang lebih smooth
 5. Integrasi dengan database SQLite untuk kontak
 6. Menambahkan dark mode theme
 7. Menambahkan lebih banyak operasi matematika pada kalkulator
+8. Upload ke Google Play Store dengan signing key yang proper
 
 ## 📄 License
 
